@@ -1,10 +1,9 @@
-<!-- resources/views/login.blade.php -->
-
-@extends('layouts.app')
-
-@section('title', 'Login')
-
-@section('content')
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
     <h2>Login</h2>
 
     <form method="POST" action="{{ route('login') }}">
@@ -12,7 +11,7 @@
 
         <div>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" value="{{ old('email') }}" required autofocus>
+            <input type="email" id="email" name="email" required autofocus>
         </div>
 
         <div>
@@ -22,11 +21,12 @@
 
         <div>
             <input type="checkbox" id="remember" name="remember">
-            <label for="remember">Remember Me</label>
+            <label for="remember">Remember me</label>
         </div>
 
         <div>
             <button type="submit">Login</button>
         </div>
     </form>
-@endsection
+</body>
+</html>

@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align : center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align : center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: coral;
+    border-radius: 5px;
+
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form button[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #555;
+}
+.pop-up-modal {
+    display: none;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+.pop-up-modal.show {
+    opacity: 1;
+}
+.pop-up-modal h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+    }
+
+.pop-up-modal p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 0;
+        }
+        .register-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+.register-link {
+  text-align: center;
+  color : black;
+  margin-top: 10px;
+}
+p a {
+    color: red;
+    text-decoration: none;
+}
